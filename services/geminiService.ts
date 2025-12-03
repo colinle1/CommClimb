@@ -21,7 +21,7 @@ const fileToGenerativePart = async (file: File): Promise<{ inlineData: { data: s
 
 export const generateTranscript = async (videoFile: File): Promise<TranscriptSegment[]> => {
   try {
-    const ai = new GoogleGenAI({ apiKey: process.env.CommClimbKey });
+    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
     
     // We strictly define the output schema to get usable JSON
     const responseSchema = {
