@@ -13,7 +13,7 @@ export default async function handler(
       return res.status(400).json({ error: "Missing video data" });
     }
 
-    const ai = new GoogleGenAI({ apiKey: process.env.CommClimbKey });
+    const ai = new GoogleGenAI({ apiKey: "CommClimbKey" });
 
     const responseSchema = {
       type: Type.ARRAY,
