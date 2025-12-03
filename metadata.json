@@ -1,0 +1,8 @@
+{
+  "name": "CommClimb",
+  "description": "A professional video analysis tool that deconstructs media into visual, audio, and verbal components for detailed feedback and annotation.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
